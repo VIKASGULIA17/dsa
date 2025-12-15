@@ -165,9 +165,5 @@ const ContestDetailPage = () => {
              </div>
           )}
         </div>
-      </div>
-    </div>
-  );
-};
 
 export default ContestDetailPage;
