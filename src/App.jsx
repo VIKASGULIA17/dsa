@@ -5,6 +5,9 @@ import HomePage from './pages/HomePage'
 import DSAHubPage from './pages/DsaHubPage'
 import TopicPage from './pages/TopicsPage'
 import AboutMePage from './pages/AboutMePage'
+import VisualizerPage from './pages/VisualizerPage'
+import ProblemDetailPage from './pages/ProblemDetailPage'
+import ContestDetailPage from './pages/ContestDetailPage'
 
 
 const App = () => {
@@ -16,6 +19,9 @@ const App = () => {
             <Route path="/" element={<HomePage />} />
             <Route path="/dsa-hub" element={<DSAHubPage />} />
             <Route path="/topic/:categoryId/:topicId" element={<TopicPage />} />
+            <Route path="/visualizer" element={<VisualizerPage />} />
+            <Route path="/problem/:id" element={<ProblemDetailPage />} />
+            <Route path="/contest/:id" element={<ContestDetailPage />} />
             <Route path="/about" element={<AboutMePage />} />
           </Routes>
         </MainLayout>

@@ -9,7 +9,7 @@ import {
   MobileNavToggle,
   MobileNavMenu,
 } from "../ui/resizable-navbar"
-import { Code2, BookOpen, User, Home, Moon, Sun } from 'lucide-react'
+import { Code2, BookOpen, User, Home, Moon, Sun, PlayCircle, Trophy } from 'lucide-react'
 
 export function EnhancedNavbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
@@ -26,6 +26,16 @@ export function EnhancedNavbar() {
       name: "DSA Hub",
       link: "/dsa-hub",
       icon: Code2
+    },
+    {
+      name: "Visualizer",
+      link: "/visualizer",
+      icon: PlayCircle
+    },
+    {
+      name: "Contests",
+      link: "/contest/weekly-1",
+      icon: Trophy
     },
     {
       name: "About Me",
