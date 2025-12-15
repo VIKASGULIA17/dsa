@@ -9,6 +9,7 @@ import {
   MobileNavToggle,
   MobileNavMenu,
 } from "../ui/resizable-navbar"
+import { Code2, BookOpen, User, Home, Moon, Sun, PlayCircle, Trophy } from 'lucide-react'
 import { 
   Code2, 
   BookOpen, 
@@ -57,6 +58,19 @@ export function EnhancedNavbar() {
       icon: Play
     },
     {
+      name: "Visualizer",
+      link: "/visualizer",
+      icon: PlayCircle
+    },
+    {
+      name: "Contests",
+      link: "/contest/weekly-1",
+      icon: Trophy
+    },
+    {
+      name: "About Me",
+      link: "/about",
+      icon: User
       name: "DSA Hub",
       link: "/dsa-hub",
       icon: BookOpen
